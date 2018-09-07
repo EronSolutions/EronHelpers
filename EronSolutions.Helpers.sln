@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net", ".Net", "{A3410420-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EronSolutions.Helpers.CSharpNet", "EronSolutions.Helpers.CSharpNet\EronSolutions.Helpers.CSharpNet.csproj", "{A0D017F5-B320-40DB-865E-E20FCF1F1ED2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EronSolutions.Herlpers.CSharpNet.Tests", "EronSolutions.Herlpers.CSharpNet.Tests\EronSolutions.Herlpers.CSharpNet.Tests.csproj", "{99974CB8-7E10-4EE6-8351-8760AE742AA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{A0D017F5-B320-40DB-865E-E20FCF1F1ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0D017F5-B320-40DB-865E-E20FCF1F1ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0D017F5-B320-40DB-865E-E20FCF1F1ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99974CB8-7E10-4EE6-8351-8760AE742AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99974CB8-7E10-4EE6-8351-8760AE742AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99974CB8-7E10-4EE6-8351-8760AE742AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99974CB8-7E10-4EE6-8351-8760AE742AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0D017F5-B320-40DB-865E-E20FCF1F1ED2} = {A3410420-CF16-4113-8F92-F59F2D453DEF}
+		{99974CB8-7E10-4EE6-8351-8760AE742AA7} = {A3410420-CF16-4113-8F92-F59F2D453DEF}
 	EndGlobalSection
 EndGlobal
