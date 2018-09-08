@@ -8,28 +8,16 @@ namespace EronSolutions.Herlpers.CSharpNet.Tests
     /// Summary description for AlphaIDTests
     /// </summary>
     [TestClass]
-    public class AlphaIDTests
+    public class AlphaIdTests
     {
-        public AlphaIDTests()
+        public AlphaIdTests()
         { }
-
-        private TestContext testContextInstance;
 
         /// <summary>
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
         ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
 
         #region Additional test attributes
         //
